@@ -63,4 +63,77 @@ level5: Full automation
 
 # RPA, AI, and Cognitive Tech for Leaders
 
-## 
+"Certain skills are best sourced from professionals, at least at first"
+Jobs of the future
+- AI algorithm trainers
+- Digital process designers
+- Data Scientists
+- Automation engineers
+- Digital labor stewards
+- Robotic operating center specialists
+
+## Managing AI expectations
+
+### Start with the data
+- convert unstructed to structed data
+- Cleanse it
+- Curate it
+
+# Cloud Architecture
+
+## Introductions
+- Core Concepts
+- Design Decisions
+- Advanced Concepts
+
+Cloud providers
+
+AWS GOOGLE MICROSOFT
+
+
+## Bussiness needs
+
+## Cloud parts
+
+### Cloud storage
+Block - Object - File
+
+### Cloud CPU
+Cloud platform:
+- Memory
+- Attached Storage
+- CPU/cores
+- OS
+- Ops
+
+### Cloud databases
+AWS
+- RDS
+- Redshift
+- Others
+
+Microsoft
+- Azure
+- HDInsight
+- Cloud SQL Database
+- Others
+
+Google
+- Cloud SQL
+- BigQuery
+- Others
+
+### Additional cloud services
+
+## Requirements to Solutions
+
+## Build your first architecture
+- Define your requirements:
+    - Bussiness process
+    - Data
+    - Security
+    - Governance
+    - Performance
+    - Cost
+- Define your desired and state
+    - 
