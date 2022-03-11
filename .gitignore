@@ -35,4 +35,30 @@ __pycache__/
 .venv
 venv
 
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+*.png
 
+# Portable Document Format
+*.pdf
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Data emitted from docker image
+*/data
+
+# BLE_Xiaomi_Mija clone projects
+BLE_Xiaomi_Mija/MiTemperature2
+# Raspi/LCD clone project
+Raspi/LCD/GitClone/lcd-master
+
+
+# Microsoft Office files
+*.pptx
