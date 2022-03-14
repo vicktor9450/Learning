@@ -1,11 +1,11 @@
 #! /usr/bin/env python
 
-import drivers
+import LCDdrivers
 from time import sleep
 from datetime import datetime
 from subprocess import check_output
 
-display = drivers.Lcd() # init the Instance
+display = LCDdrivers.Lcd() # init the Instance
 
 # Get IP 
 def GetIP() -> str:

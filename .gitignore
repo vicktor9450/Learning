@@ -62,3 +62,15 @@ Raspi/LCD/GitClone/lcd-master
 
 # Microsoft Office files
 *.pptx
+
+# From Practical python programming for IoT master (book-download source)
+venv*
+_gs*
+__pycache__
+.idea
+.AppleDouble
+.DS_Store
+*.log
+.mypy_cache
+*.code-workspace
+sync.sh
