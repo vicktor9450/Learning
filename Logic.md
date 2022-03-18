@@ -7,7 +7,7 @@
             - Humid
             - Motion
             - Light
-        - Wireless (MQTT, ZigBee)
+        - Wireless (MQTT, ZigBee) https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-python-module?view=iotedge-2020-11
             - Temp
             - Humid
     - internet, API
@@ -20,7 +20,49 @@ Sensors >>>> mqtt, zigbee... Protocol   >>>> Apache kafka >>>
     >>> DB Sink Service
     >>> Consumer for realtime analytic, also producer to kafka 
 .>>>> Graph, Plot 
+
+### MQTT payload wrapping
+https://www.hivemq.com/blog/mqtt-raspberrypi-part03-sending-sensor-data-hivemqcloud-pico/
+
+### Sensors
+#### Prepare hardware - connectting
+
+#### Prepare software - code
+
+
 ## Database - NoSQL
+
+
+
+## DEVOPS with 5 pizero 2w
+ 
+Sử dụng docker swarm để scale/ deploy lên raspi zero
+Phần cứng bao gồm:
+    - Nguồn: 1 pcs
+    - Cáp nguồn đến pi: 5
+    - Pi zero 2w: 5 pcs with attached heatsink
+    - Cáp tín hiệu màn hình: 1 > DONE
+    - Cluster barebone case
+    - Thẻ nhớ: 128gb * 5
+
+
+### Tasks:
+- Lam case, xay dung phan cung de setup stack of pi
+
+### Manage docker swarm
+https://www.portainer.io/?hsLang=en
+
+### Prepare boot img for raspi zero 2w
+
+specs: sdcard 128gb
+
+original raspi 64bit img > configuring ip address > locale > language
+
+### Deploy on docker swarm
+- cassandra: https://ralph.blog.imixs.com/2019/06/24/cassandra-and-docker-swarm/
+- mqtt: load balancer for getting data in
+- kafka: https://collabnix.com/implementing-apache-kafka-on-docker-swarm-running-on-aws-platform-in-5-minutes/
+
 
 # TODO: Làm sao để khởi tạo system > add các module vào được nhỉ
 

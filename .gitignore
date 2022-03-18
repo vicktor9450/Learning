@@ -55,10 +55,9 @@ venv
 */data
 
 # BLE_Xiaomi_Mija clone projects
-BLE_Xiaomi_Mija/MiTemperature2
+**/MiTemperature2
 # Raspi/LCD clone project
-Raspi/LCD/GitClone/lcd-master
-
+**/GitClone
 
 # Microsoft Office files
 *.pptx
@@ -74,3 +73,6 @@ __pycache__
 .mypy_cache
 *.code-workspace
 sync.sh
+
+# LICENSE
+LICENSE
