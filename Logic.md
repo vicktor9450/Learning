@@ -29,10 +29,7 @@ https://www.hivemq.com/blog/mqtt-raspberrypi-part03-sending-sensor-data-hivemqcl
 
 #### Prepare software - code
 
-
 ## Database - NoSQL
-
-
 
 ## DEVOPS with 5 pizero 2w
  

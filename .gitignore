@@ -51,13 +51,12 @@ venv
 *.tiff
 *.tif
 
-# Data emitted from docker image
-*/data
-
-# BLE_Xiaomi_Mija clone projects
-**/MiTemperature2
-# Raspi/LCD clone project
-**/GitClone
+# All Data emitted from docker image
+**/data
+# All clone projects
+**/Clone
+# All added Books
+**/Books
 
 # Microsoft Office files
 *.pptx
