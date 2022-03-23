@@ -43,6 +43,15 @@
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
+# TODO:
+"""
+Connect to data pipeline system
+   - Lam sao de assign name of sensor > vi tri, >> create instance as defined class
+   - Tham khao homeassistant connect protocol
+   - Tham khao nodered ( sensors > kafka > cassandra)
+   - tham khao dubia.py which running on raspian usb
+"""
+
 import time
 import board
 import adafruit_dht

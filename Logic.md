@@ -21,15 +21,20 @@ Sensors >>>> mqtt, zigbee... Protocol   >>>> Apache kafka >>>
     >>> Consumer for realtime analytic, also producer to kafka 
 .>>>> Graph, Plot 
 
+## Cassandra on kubernetes
+https://www.datastax.com/learn/apache-cassandra-operations-in-kubernetes?utm_source=thenewstack&utm_medium=byline&utm_campaign=cassandra-docker&utm_term=all-plays&utm_content=TL34
+
 ### MQTT payload wrapping
 https://www.hivemq.com/blog/mqtt-raspberrypi-part03-sending-sensor-data-hivemqcloud-pico/
-
 ### Sensors
 #### Prepare hardware - connectting
 
 #### Prepare software - code
 
+
 ## Database - NoSQL
+
+
 
 ## DEVOPS with 5 pizero 2w
  

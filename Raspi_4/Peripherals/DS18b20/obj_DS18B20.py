@@ -3,6 +3,13 @@
 #https://forums.raspberrypi.com/viewtopic.php?t=128776
 # Connect to GPIO#4
 
+# TODO:
+"""
+Connect to data pipeline system
+   - Lam sao de assign name of sensor > vi tri, >> create instance as defined class
+   - Tham khao homeassistant connect protocol
+   - Tham khao nodered ( sensors > kafka > cassandra)
+"""
 import glob
 import time
 
