@@ -3,7 +3,7 @@ Phần setup Có thể nhúng trong file setup.sh như ở trong phân setup c�
 
 # SETUP
 sudo nano /boot/config.txt
-add dtoverlay=w1-gpio in the bottom
+add "dtoverlay=w1-gpio" in the bottom
 save and reboot sudo reboot
 sudo modprobe w1-gpio
 sudo modprobe w1-therm

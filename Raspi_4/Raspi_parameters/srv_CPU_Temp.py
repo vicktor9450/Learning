@@ -18,3 +18,4 @@ if __name__ == '__main__':
         # print(raspi_CPU_temp())
     except KeyboardInterrupt:
         destroy()
+

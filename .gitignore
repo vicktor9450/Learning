@@ -44,6 +44,7 @@ venv
 *.jfi
 *.png
 *.webp
+*.gif
 
 # Portable Document Format
 *.pdf
